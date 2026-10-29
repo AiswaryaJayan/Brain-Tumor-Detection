@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ADD8E6; /* Background color of the page */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #808080; /* Box color */
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 50%; /* Adjust the width of the box */
+        }
+        .container h1 {
+            margin-bottom: 20px;
+            color: #000000; /* Text color */
+        }
+        .container img {
+            max-width: 100%; /* Ensure image fits within container */
+            margin-bottom: 20px; /* Add margin below image */
+        }
+        .container form {
+            margin-top: 20px;
+        }
+        .container button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>This person is diagnosed with brain tumor</h1>
+        <form action="/welcome" method="get">
+            <button type="submit">Go back to Welcome page</button>
+        </form>
+    </div>
+</body>
+</html>
